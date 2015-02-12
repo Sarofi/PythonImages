@@ -1,0 +1,34 @@
+hetero: ii 2 box_readpixelnoisevar fn_pixelnoisevar step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+{Error using <a href="matlab:helpUtils.errorDocCallback('hetero', '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/hetero.m', 254)" style="font-weight:bold">hetero</a>
+(<a href="matlab: opentoline('/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/hetero.m',254,0)">line 254</a>)
+hetero: ii 2
+box_readpixelnoisevar:
+fn_pixelnoisevar
+step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('inst_Neta2_rule49_Nv500_hetero_inv', '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/FHV.syntheticdata4hetero00.7/inst_Neta2_rule49_Nv500_hetero_inv.m', 159)" style="font-weight:bold">inst_Neta2_rule49_Nv500_hetero_inv</a>
+(<a href="matlab: opentoline('/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/FHV.syntheticdata4hetero00.7/inst_Neta2_rule49_Nv500_hetero_inv.m',159,0)">line 159</a>)
+hetero(cmd);
+} 
+inst_Neta2_rule49_Nv500_hetero_inv
+inst_Neta2_rule49_Nv500_hetero_inv: outputbasename FHV.out.lmax10pmax5.Neta2.rule49.Nv500.hetero.inv
+hetero: ii 1 misc_diary fn_diary FHV.out.lmax10pmax5.Neta2.rule49.Nv500.hetero.inv.diary.txt
+hetero: ii 2 box_readpixelnoisevar fn_pixelnoisevar step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+{Error using <a href="matlab:helpUtils.errorDocCallback('hetero', '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/hetero.m', 254)" style="font-weight:bold">hetero</a>
+(<a href="matlab: opentoline('/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/hetero.m',254,0)">line 254</a>)
+hetero: ii 2
+box_readpixelnoisevar:
+fn_pixelnoisevar
+step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('inst_Neta2_rule49_Nv500_hetero_inv', '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/FHV.syntheticdata4hetero00.7/inst_Neta2_rule49_Nv500_hetero_inv.m', 159)" style="font-weight:bold">inst_Neta2_rule49_Nv500_hetero_inv</a>
+(<a href="matlab: opentoline('/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/FHV.syntheticdata4hetero00.7/inst_Neta2_rule49_Nv500_hetero_inv.m',159,0)">line 159</a>)
+hetero(cmd);
+} 
+inst_Neta2_rule49_Nv500_homo_inv
+inst_Neta2_rule49_Nv500_homo_inv: outputbasename FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv
+hetero: ii 1 misc_diary fn_diary FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.diary.txt

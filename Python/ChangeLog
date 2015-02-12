@@ -1,0 +1,13 @@
+2014-09-29	Yunhan Wang	<yw559@cornell.edu>
+
+* added fmincon.py
+Read comments in fmincon.py to use it.
+A testcase is included in fmincon.py. And its Matlab version is in ../fmincon_alternative/testcase.m
+
+You need to use CasADi package to write NLP functions. Documentation is put under ../Resources/
+
+
+2014-09-06	Yunhan Wang	<yw559@cornell.edu>
+
+* created README
+

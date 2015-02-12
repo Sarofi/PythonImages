@@ -1,0 +1,109 @@
+Created by YunHan Wang, Sep 8, 2014
+Updated by YunHan Wang, Sep 29, 2014
+
+2014-09-29
+
+fmincon.py is done and put under Python folder. Read comments in fmincon.py to use it.
+
+A testcase is included in fmincon.py. And its Matlab version is in testcase.m.
+fmincon.py gives correct answer in this testcase.
+Yunye and I compared Matlab’s trust region reflective, Matlab’s interior point, and Python’s IpOpt (linear search interior point). 
+Based on test case result:
+	* Python run the same # of iterations as M’s interior, while gives answer more close to M’s trust region. We think all of them give correct answers.
+	* If we shrink the lower bound and upper bound, the result is more close.
+	* We can not say the efficiency of interior point is worse or better, since I doubt that the processing time of one iteration are different between interior point and trust region, or between Matlab and Java. However our test case is solved too fast to judge these differences.
+
+
+The fmincon alternative function should be ready, so next steps are:
+1. Integrate fmincon piece into our python software. To do this:
+	* install CasADi and IpOpt. Please look into Python/README
+	* implement set_Q_dV_unc in Python and use fmincon() to solve it. Unlike matlab version, in Python you have to write them separately. Read comments in fmincon.py for details.
+		** set_Q_dV_unc
+		** gradient of set_Q_dV_unc
+		** hessian of set_Q_dV_unc
+	* you need to use CasADi’s data structures in set_Q_dV_unc. Please look into Resources/casadi-users_guide.pdf
+2. verify the correctness of fmincon alternative. Though Yunye and I tested this function using a small test case (this test case is included in fmincon.py, and fmincon_alternative/testcase.m), it could happen that it goes to something wrong with our software’s case.
+
+2014-09-28
+
+I switched to CasAdi interface instead of PyIpopt for IpOpt, which is outdated and lacks documenation.
+Now the functions as fmincon alternative are ready. Then we test with an NLP, but result is DIFFERENT with Matlab's trust region reflective. Here is analysis:
+
+Emma Qiu Wang explained why in Matlab she chose trust region instead of interior point:
+===================
+There were several reasons. fmincon was chosen due to the constrained
+nature of the problem. Under fmincon, active-set and sqp do not accept
+a user-supplied Hessian. Plus they're more suitable for small to
+medium sized problems..
+
+The fmincon option with "trust-region-reflective" is a particular type
+of interior-point method, other than the default "interior-point"
+option. It handles large sparse problems efficiently and accepts
+user-supplied Hessian.
+
+The reason I tried with trust-region-reflective was, accordingly to
+papers referenced by Matlab, there could be potential inaccuracy with
+interior-point algorithms in general.
+See http://www.mathworks.com/help/optim/ug/choosing-a-solver.html#btr9d6u
+and http://www.ece.northwestern.edu/~nocedal/PDFfiles/directpaper.pdf
+
+According to the paper above, this trust region interior point method
+is a better interior point algorithm which is more robust and
+efficient than either a pure trust region or a pure line search
+interior approach. However, if there is no convenient python
+equivalence of either of the algorithms, I would vote for trying
+either of them as a substitute of the other.
+===================
+Unfortunately IpOpt use linear search and interior point aglorithm to solve NLP. My observation of interior point is consistent with Emma's explaining: it converges really slow and even didn't.
+
+To be done: talk with Professor and Yunye to evaluate IpOpt.
+
+
+
+2014-09-08
+
+Emma’s fmincon used trust-region-reflective algorithm, providing Hessian, gradient, and bound constraints only.
+      %ZhengWangDoerschuk JOSA-A 2012 from Eq. 35 using Eqs. 43 and 44.
+      nuNEW{eta}=fmincon(@(nu) set_Q_dV_unc(EM_iter.rule,vk,y,pixelnoisevar,vobj,p_theta_eta,nu), ...
+        vobj{eta}.nu,[],[],[],[],lb,ub,[],optimset('Algorithm','trust-region-reflective','GradObj','on', ...
+        'Hessian','on','TolX',EM_iter.V_TolX,'MaxIter',EM_iter.V_MaxIter,'Display','iter'));
+
+Here is a Matlab article comparing the options of solver
+http://www.mathworks.com/help/optim/ug/choosing-a-solver.html
+
+Here is collections of best optimizers:
+http://www.neos-server.org/neos/solvers/index.html
+I looked into the NLP solvers listed in neos, but it seemed Ipopt is our only choice.
+
+Especially, Ipopt is a popular general optimization. Though it uses interior-point, people have used it as sqp alternative, which seems promising for us:
+https://projects.coin-or.org/Ipopt
+
+Besides there is a Python fmincon under development, without Hessian, TolX and MaxIter.
+http://forge.scilab.org/index.php/p/fmincont/
+
+
+########## Ipopt ########## 
+Ipopt has many interfaces. For Python I've tried 3 of them but only PyIpopt worked. 
+https://github.com/xuy/pyipopt
+For installation of Ipopt & PyIpopt please see ../Python/README
+
+
+########## trust-region-reflective ########## 
+If PyIpopt does not work, another choice is to find some algorithms that also uses Trust-Region-Reflective algorithm for optimization.
+
+About trust-region-reflective, also known as restricted step methods:
+
+Below are papers on it:
+	Sorensen, Danny C. "Newton's method with a model trust region modification." SIAM Journal on Numerical Analysis 19.2 (1982): 409-426. (earliest)
+	Li, Yuying. Centering, trust region, reflective techniques for nonlinear minimization subject to bounds. Cornell University, 1993.
+	Yuan, Ya-xiang. "A review of trust region algorithms for optimization."ICIAM. Vol. 99. 2000.
+
+Here talks about this algorithm’s software implementations. 
+	https://github.com/zhenglei-gao/StudyKin/blob/master/Improve/trust-region.md
+
+I searched for Python solvers using this algorithm
+	SNES seems to be promising with bounds and Jacobian, but without Hessian, MaxIterations, and Termination tolerance. It includes line search and trust region techniques for globalising the convergence of the nonlinear iteration. http://fenicsproject.org/documentation/dolfin/dev/python/programmers-reference/cpp/la/PETScSNESSolver.html
+	
+	NLPy, I guess its functions might solve subproblems only. This module implements a purely primal-dual interior-point methods for bound-constrained optimization. The method uses the primal-dual merit function of Forsgren and Gill and solves subproblems by means of a truncated conjugate gradient method with trust region. http://nlpy.sourceforge.net/optim.html#module-pdmerit
+	
+	https://github.com/gilbertgede/PyIntropt

@@ -1,0 +1,94 @@
+
+########## 2014-04-27 13:14:38 ##########
+hetero: ii 2 vobj_load_virusobj fn_virusobj FHV.out.lmax10pmax5.Neta2.rule49.50.inv.vobj.mat
+
+########## 2014-04-27 13:15:37 ##########
+hetero: ii 2 vobj_load_virusobj fn_virusobj FHV.out.lmax10pmax5.Neta2.rule49.50.inv.vobj.mat
+hetero: ii 3 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+rd_b: l 7 rd_l 14 n 0 rd_n 15
+rd_b: l 8 rd_l 16 n 0 rd_n 17
+rd_b: l 9 rd_l 18 n 0 rd_n 19
+rd_b: l 10 rd_l 20 n 0 rd_n 21
+rd_b: l even, l 10 n 0 m 0
+rd_b: l even, l 10 n 0 m 1
+rd_b: l even, l 10 n 0 m 2
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+rd_b: l 7 rd_l 14 n 0 rd_n 15
+rd_b: l 8 rd_l 16 n 0 rd_n 17
+rd_b: l 9 rd_l 18 n 0 rd_n 19
+rd_b: l 10 rd_l 20 n 0 rd_n 21
+rd_b: l even, l 10 n 0 m 0
+rd_b: l even, l 10 n 0 m 1
+rd_b: l even, l 10 n 0 m 2
+hetero: ii 4 post_compute_real_space_cubes
+hetero: ii 5 post_save_real_space_cubes fn_real_space_cubes FHV.out.lmax10pmax5.Neta2.rule49.50.post.class2.realspacecubes.mat
+hetero: ii 6 misc_save_workspace fn_workspace FHV.out.lmax10pmax5.Neta2.rule49.50.post.workspace.mat
+hetero: ii 7 misc_diary fn_diary off
+
+########## 2014-04-27 13:21:00 ##########
+hetero: ii 2 vobj_load_virusobj fn_virusobj FHV.out.lmax10pmax5.Neta2.rule49.50.inv.vobj.mat
+hetero: ii 3 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+hetero: ii 4 post_compute_real_space_cubes
+hetero: ii 5 post_save_real_space_cubes fn_real_space_cubes FHV.out.lmax10pmax5.Neta2.rule49.50.post.class2.realspacecubes.mat
+hetero: ii 6 misc_save_workspace fn_workspace FHV.out.lmax10pmax5.Neta2.rule49.50.post.workspace.mat
+hetero: ii 7 misc_diary fn_diary off
+
+########## 2014-04-27 14:14:21 ##########
+hetero: ii 2 vobj_load_virusobj fn_virusobj FHV.out.lmax10pmax5.Neta2.rule49.50.inv.vobj.mat
+hetero: ii 3 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+hetero: ii 4 post_compute_real_space_cubes
+hetero: ii 5 post_save_real_space_cubes fn_real_space_cubes FHV.out.lmax10pmax5.Neta2.rule49.50.post.class2.realspacecubes.mat
+hetero: ii 6 misc_save_workspace fn_workspace FHV.out.lmax10pmax5.Neta2.rule49.50.post.workspace.mat
+hetero: ii 7 misc_diary fn_diary off
+HAHA to file called
+/profession/[14Spring]-MEng Project/Hetero off
+
+########## 2014-04-28 13:05:30 ##########
+hetero: ii 2 vobj_load_virusobj fn_virusobj FHV.out.lmax10pmax5.Neta2.rule49.50.inv.vobj.mat
+hetero: ii 3 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+hetero: ii 4 post_compute_real_space_cubes
+
+########## 2014-05-04 20:48:09 ##########
+
+########## 2014-05-04 21:03:03 ##########
+
+########## 2014-05-04 21:04:23 ##########
+hetero: ii 2 vobj_load_virusobj fn_virusobj FHV.out.lmax10pmax5.Neta2.rule49.50.inv.vobj.mat
+hetero: ii 3 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+hetero: ii 4 post_compute_real_space_cubes
+
+########## 2014-05-04 21:05:24 ##########
+hetero: ii 2 vobj_load_virusobj fn_virusobj FHV.out.lmax10pmax5.Neta2.rule49.50.inv.vobj.mat
+hetero: ii 3 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+hetero: ii 4 post_compute_real_space_cubes
+
+########## 2014-05-04 21:48:02 ##########
+hetero: ii 2 vobj_load_virusobj fn_virusobj FHV.out.lmax10pmax5.Neta2.rule49.50.inv.vobj.mat
+hetero: ii 3 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+hetero: ii 4 post_compute_real_space_cubes
+
+########## 2014-05-04 21:48:13 ##########
+hetero: ii 2 vobj_load_virusobj fn_virusobj FHV.out.lmax10pmax5.Neta2.rule49.50.inv.vobj.mat
+hetero: ii 3 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+hetero: ii 4 post_compute_real_space_cubes

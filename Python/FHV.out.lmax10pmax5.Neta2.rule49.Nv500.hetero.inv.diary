@@ -1,0 +1,36 @@
+
+########## 2014-08-14 04:30:42 ##########
+hetero: ii 2 box_readpixelnoisevar fn_pixelnoisevar step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+hetero: ii 2 box_readpixelnoisevar fn_pixelnoisevar step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+
+hetero: ii 2 box_readpixelnoisevar pixelnoisevar 0
+
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-14 18:18:37 ##########
+hetero: ii 2 box_readpixelnoisevar fn_pixelnoisevar step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+hetero: ii 2 box_readpixelnoisevar fn_pixelnoisevar step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+
+hetero: ii 2 box_readpixelnoisevar pixelnoisevar 0
+
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-15 00:43:15 ##########
+hetero: ii 2 box_readpixelnoisevar fn_pixelnoisevar step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+hetero: ii 2 box_readpixelnoisevar fn_pixelnoisevar step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+
+hetero: ii 2 box_readpixelnoisevar pixelnoisevar 0
+
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-15 01:08:37 ##########
+hetero: ii 2 box_readpixelnoisevar fn_pixelnoisevar step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+hetero: ii 2 box_readpixelnoisevar fn_pixelnoisevar step3/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+
+hetero: ii 2 box_readpixelnoisevar pixelnoisevar 0
+
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500

@@ -1,0 +1,4129 @@
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+{Undefined function
+'ReadMRC' for input
+arguments of type
+'char'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('hetero', '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/hetero.m', 308)" style="font-weight:bold">hetero</a> (<a href="matlab: opentoline('/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/hetero.m',308,0)">line
+308</a>)
+          map=ReadMRC(cmd{ii}.fn_imagestack,cmd{ii}.startSlice,cmd{ii}.numSlices);
+          
+Error in
+<a href="matlab:helpUtils.errorDocCallback('inst_Neta2_rule49_Nv500_homo_inv', '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/FHV.syntheticdata4hetero00.7/inst_Neta2_rule49_Nv500_homo_inv.m', 257)" style="font-weight:bold">inst_Neta2_rule49_Nv500_homo_inv</a>
+(<a href="matlab: opentoline('/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/FHV.syntheticdata4hetero00.7/inst_Neta2_rule49_Nv500_homo_inv.m',257,0)">line 257</a>)
+hetero(cmd);
+} 
+inst_Neta2_rule49_Nv500_homo_inv.RUN1
+{Undefined variable
+"inst_Neta2_rule49_Nv500_homo_inv"
+or function
+"inst_Neta2_rule49_Nv500_homo_inv.RUN1".} 
+inst_Neta2_rule49_Nv500_post
+inst_Neta2_rule49_Nv500_post_inv: outputbasename FHV.out.lmax10pmax5.Neta2.rule49.Nv500.post
+hetero: ii 1 misc_diary fn_diary FHV.out.lmax10pmax5.Neta2.rule49.Nv500.post.diary.txt
+
+########## 2014-08-14 04:33:30 ##########
+hetero: ii 19 EM_sphericalsymmetry_homogeneous
+hetero: ii 20 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[ 0.  0.  0.  0.]
+vobj_print_virusobj: eta 1 cbar:
+[ 0.  0.  0.  0.]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[ 0.  0.  0.  0.]
+vobj_print_virusobj: eta 2 cbar:
+[ 0.  0.  0.  0.]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 21 vobj_write_virusobj
+hetero: ii 22 misc_diary fn_diary off
+
+########## 2014-08-14 04:33:30 ##########
+hetero: ii 28 vobj_change_size_of_virusobj:
+hetero: ii 28 vlmax:
+[0 0]
+hetero: ii 28 vpmax:
+[4 4]
+virusobj_changesize: eta 1 ln 1
+virusobj_changesize: eta 2 ln 1
+hetero: ii 29 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 cbar:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 cbar:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 30 EM_read_tilde_b fn_tilde_b /Users/apple/Documents/workspace/PythonTest/src/Hetero/callti.out.read_by_C
+/Users/apple/Documents/workspace/PythonTest/src/Hetero/callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'/Users/apple/Documents/workspace/PythonTest/src/Hetero/callti.out.read_by_C' opening /Users/apple/Documents/workspace/PythonTest/src/Hetero/callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+/Users/apple/Documents/workspace/PythonTest/src/Hetero/callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'/Users/apple/Documents/workspace/PythonTest/src/Hetero/callti.out.read_by_C' opening /Users/apple/Documents/workspace/PythonTest/src/Hetero/callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+hetero: ii 31 EM_extractdatasubset kmax 0.052607
+hetero: ii 31 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 32 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 33 quad_read_integration_rule fn_rule /Users/apple/Documents/workspace/PythonTest/src/Hetero/rule_small_3_rulechopper
+
+########## 2014-08-14 04:36:34 ##########
+hetero: ii 19 EM_sphericalsymmetry_homogeneous
+hetero: ii 20 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 cbar:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 cbar:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 21 vobj_write_virusobj
+hetero: ii 22 misc_diary fn_diary off
+
+########## 2014-08-14 04:36:34 ##########
+hetero: ii 28 vobj_change_size_of_virusobj:
+hetero: ii 28 vlmax:
+[0 0]
+hetero: ii 28 vpmax:
+[4 4]
+virusobj_changesize: eta 1 ln 1
+virusobj_changesize: eta 2 ln 1
+hetero: ii 29 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 30 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+hetero: ii 31 EM_extractdatasubset kmax 0.052607
+hetero: ii 31 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 32 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 33 quad_read_integration_rule fn_rule rule_small_3_rulechopper
+
+########## 2014-08-14 04:37:52 ##########
+hetero: ii 19 EM_sphericalsymmetry_homogeneous
+hetero: ii 20 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 cbar:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 cbar:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 21 vobj_write_virusobj
+hetero: ii 22 misc_diary fn_diary off
+
+########## 2014-08-14 04:37:52 ##########
+hetero: ii 28 vobj_change_size_of_virusobj:
+hetero: ii 28 vlmax:
+[0 0]
+hetero: ii 28 vpmax:
+[4 4]
+virusobj_changesize: eta 1 ln 1
+virusobj_changesize: eta 2 ln 1
+hetero: ii 29 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 30 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+hetero: ii 31 EM_extractdatasubset kmax 0.052607
+hetero: ii 31 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 32 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 33 quad_read_integration_rule fn_rule ./rule_small_3_rulechopper
+
+########## 2014-08-14 04:38:14 ##########
+hetero: ii 19 EM_sphericalsymmetry_homogeneous
+hetero: ii 20 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 cbar:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 cbar:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 21 vobj_write_virusobj
+hetero: ii 22 misc_diary fn_diary off
+
+########## 2014-08-14 04:38:14 ##########
+hetero: ii 28 vobj_change_size_of_virusobj:
+hetero: ii 28 vlmax:
+[0 0]
+hetero: ii 28 vpmax:
+[4 4]
+virusobj_changesize: eta 1 ln 1
+virusobj_changesize: eta 2 ln 1
+hetero: ii 29 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 30 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+hetero: ii 31 EM_extractdatasubset kmax 0.052607
+hetero: ii 31 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 32 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 33 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 34 EM_expectationmaximization
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 34 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 10
+
+EM_expmax_MonteCarlo: Nrandic 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28264679]
+ [ -18.85609808]
+ [  14.72370087]
+ [  18.85878197]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99061803]
+ [ -43.41820927]
+ [ -17.33162108]
+ [  -7.2295175 ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.75621) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.763738) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.771838) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.752435) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: eta 1 cbar_ic_mean(eta):
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+EM_expmax_MonteCarlo: eta 1 cbar_ic_stddev(eta):
+[[ 21.0565207    3.77122138   2.9447188    3.77170631]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_mean(eta):
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_stddev(eta):
+[[ 20.19807202   8.68365649   3.46646473   1.44622961]]
+EM_expmax_MonteCarlo: nMC 2
+EM_expmax_MonteCarlo: nMC 3
+EM_expmax_MonteCarlo: nMC 4
+EM_expmax_MonteCarlo: nMC 5
+EM_expmax_MonteCarlo: nMC 6
+EM_expmax_MonteCarlo: nMC 7
+EM_expmax_MonteCarlo: nMC 8
+EM_expmax_MonteCarlo: nMC 9
+EM_expmax_MonteCarlo: nMC 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-124.46833407]
+ [ -20.06810378]
+ [  17.01797425]
+ [  13.39595099]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-129.42138193]
+ [ -25.93898446]
+ [ -13.46582856]
+ [  -6.24521261]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.770701) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 0 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.754787) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.754326) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.746013) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: nMC 10 current answer is not best so far loglikelihood -1.37126e+07 loglikelihood_best -1.37126e+07
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar 1.4237e+07
+hetero: ii 35 box_writepixelnoisevar fn_pixelnoisevar FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+hetero: ii 35 unknown operator box_writepixelnoisevar
+hetero: ii 36 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 37 vobj_write_virusobj
+hetero: ii 38 misc_diary fn_diary off
+
+########## 2014-08-14 04:38:21 ##########
+hetero: ii 42 vobj_change_size_of_virusobj:
+hetero: ii 42 vlmax:
+[6 6]
+hetero: ii 42 vpmax:
+[5 5]
+virusobj_changesize: eta 1 ln 2
+virusobj_changesize: eta 2 ln 2
+hetero: ii 43 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 44 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+hetero: ii 45 EM_extractdatasubset kmax 0.052607
+hetero: ii 45 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 46 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 47 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 48 EM_expectationmaximization
+hetero: ii 48 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 48 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 4
+
+EM_expmax_MonteCarlo: Nrandic 2
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 5.69479e+06
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28260349]
+ [ -18.8561069 ]
+ [  14.72359402]
+ [  18.85853153]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99036012]
+ [ -43.41828243]
+ [ -17.33232364]
+ [  -7.23114806]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+
+########## 2014-08-15 00:24:18 ##########
+hetero: ii 19 EM_sphericalsymmetry_homogeneous
+hetero: ii 20 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 cbar:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 cbar:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 21 vobj_write_virusobj
+hetero: ii 22 misc_diary fn_diary off
+
+########## 2014-08-15 00:24:18 ##########
+hetero: ii 28 vobj_change_size_of_virusobj:
+hetero: ii 28 vlmax:
+[0 0]
+hetero: ii 28 vpmax:
+[4 4]
+virusobj_changesize: eta 1 ln 1
+virusobj_changesize: eta 2 ln 1
+hetero: ii 29 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 30 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+hetero: ii 31 EM_extractdatasubset kmax 0.052607
+hetero: ii 31 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 32 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 33 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 34 EM_expectationmaximization
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 34 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 10
+
+EM_expmax_MonteCarlo: Nrandic 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28264679]
+ [ -18.85609808]
+ [  14.72370087]
+ [  18.85878197]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99061803]
+ [ -43.41820927]
+ [ -17.33162108]
+ [  -7.2295175 ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.736213) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+
+########## 2014-08-15 00:24:20 ##########
+hetero: ii 19 EM_sphericalsymmetry_homogeneous
+hetero: ii 20 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 cbar:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 cbar:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 21 vobj_write_virusobj
+hetero: ii 22 misc_diary fn_diary off
+
+########## 2014-08-15 00:24:20 ##########
+hetero: ii 28 vobj_change_size_of_virusobj:
+hetero: ii 28 vlmax:
+[0 0]
+hetero: ii 28 vpmax:
+[4 4]
+virusobj_changesize: eta 1 ln 1
+virusobj_changesize: eta 2 ln 1
+hetero: ii 29 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 30 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+hetero: ii 31 EM_extractdatasubset kmax 0.052607
+hetero: ii 31 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 32 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.740616) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+hetero: ii 33 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+rd_b: l even, l 0 n 0 m 0
+hetero: ii 34 EM_expectationmaximization
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 34 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 10
+
+EM_expmax_MonteCarlo: Nrandic 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28264679]
+ [ -18.85609808]
+ [  14.72370087]
+ [  18.85878197]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99061803]
+ [ -43.41820927]
+ [ -17.33162108]
+ [  -7.2295175 ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.732026) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.759972) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.775653) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: eta 1 cbar_ic_mean(eta):
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+EM_expmax_MonteCarlo: eta 1 cbar_ic_stddev(eta):
+[[ 21.0565207    3.77122138   2.9447188    3.77170631]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_mean(eta):
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_stddev(eta):
+[[ 20.19807202   8.68365649   3.46646473   1.44622961]]
+EM_expmax_MonteCarlo: nMC 2
+EM_expmax_MonteCarlo: nMC 3
+EM_expmax_MonteCarlo: nMC 4
+EM_expmax_MonteCarlo: nMC 5
+EM_expmax_MonteCarlo: nMC 6
+EM_expmax_MonteCarlo: nMC 7
+EM_expmax_MonteCarlo: nMC 8
+EM_expmax_MonteCarlo: nMC 9
+EM_expmax_MonteCarlo: nMC 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-124.46833407]
+ [ -20.06810378]
+ [  17.01797425]
+ [  13.39595099]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-129.42138193]
+ [ -25.93898446]
+ [ -13.46582856]
+ [  -6.24521261]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.777661) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.757872) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 0 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.783318) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.80003) done new cbar and q and loglike via EMstep_cbar_dV_large
+computing the log likelihood...
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+set_p_theta_eta_loglike_diagV time: 0
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EMstep_cbar_dV_large: n_total_p_theta_eta:EM_expmax_iterate2convergence: Iteration 2
+ 24500 24500EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+ n_nonzero_p_theta_eta:EM_expmax_iterate2convergence: itr 2 update cbar and q
+ 24500 24500
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+computing the expectation and maximize it... 
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.766137) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: eta 1 cbar_ic_mean(eta):
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]rd_b: l 0 rd_l 0 n 0 rd_n 1
+
+EM_expmax_MonteCarlo: eta 1 cbar_ic_stddev(eta):
+rd_b: l even, l 0 n 0 m 0
+[[ 21.0565207    3.77122138   2.9447188    3.77170631]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_mean(eta):
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_stddev(eta):
+[[ 20.19807202   8.68365649   3.46646473   1.44622961]]
+EM_expmax_MonteCarlo: nMC 2
+EM_expmax_MonteCarlo: nMC 3
+EM_expmax_MonteCarlo: nMC 4
+EM_expmax_MonteCarlo: nMC 5
+EM_expmax_MonteCarlo: nMC 6
+EM_expmax_MonteCarlo: nMC 7
+EM_expmax_MonteCarlo: nMC 8
+EM_expmax_MonteCarlo: nMC 9
+EM_expmax_MonteCarlo: nMC 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-124.46833407]
+ [ -20.06810378]
+ [  17.01797425]
+ [  13.39595099]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-129.42138193]
+ [ -25.93898446]
+ [ -13.46582856]
+ [  -6.24521261]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.740143) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.754228) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 0 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.765128) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: nMC 10 current answer is not best so far loglikelihood -1.37126e+07 loglikelihood_best -1.37126e+07
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar 1.4237e+07
+hetero: ii 35 box_writepixelnoisevar fn_pixelnoisevar FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+hetero: ii 35 unknown operator box_writepixelnoisevar
+hetero: ii 36 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 37 vobj_write_virusobj
+hetero: ii 38 misc_diary fn_diary off
+computing p...
+
+########## 2014-08-15 00:24:25 ##########
+hetero: ii 42 vobj_change_size_of_virusobj:
+hetero: ii 42 vlmax:
+[6 6]
+hetero: ii 42 vpmax:
+[5 5]
+virusobj_changesize: eta 1 ln 2
+virusobj_changesize: eta 2 ln 2
+hetero: ii 43 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+computing the log likelihood...
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+set_p_theta_eta_loglike_diagV time: 0
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+ n_nonzero_p_theta_eta:vobj_print_virusobj: eta 1 cbar:
+ 24500 24500
+computing the expectation and maximize it... 
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 44 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+hetero: ii 45 EM_extractdatasubset kmax 0.052607
+hetero: ii 45 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 46 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.757218) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.714508) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.72237) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: nMC 10 current answer is not best so far loglikelihood -1.37126e+07 loglikelihood_best -1.37126e+07
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar 1.4237e+07
+hetero: ii 35 box_writepixelnoisevar fn_pixelnoisevar FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+hetero: ii 35 unknown operator box_writepixelnoisevar
+hetero: ii 36 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 37 vobj_write_virusobj
+hetero: ii 38 misc_diary fn_diary off
+
+########## 2014-08-15 00:24:27 ##########
+hetero: ii 42 vobj_change_size_of_virusobj:
+hetero: ii 42 vlmax:
+[6 6]
+hetero: ii 42 vpmax:
+[5 5]
+virusobj_changesize: eta 1 ln 2
+virusobj_changesize: eta 2 ln 2
+hetero: ii 43 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 44 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+hetero: ii 45 EM_extractdatasubset kmax 0.052607
+hetero: ii 45 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 46 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 47 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 48 EM_expectationmaximization
+hetero: ii 48 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 48 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 4
+
+EM_expmax_MonteCarlo: Nrandic 2
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 5.69479e+06
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28260349]
+ [ -18.8561069 ]
+ [  14.72359402]
+ [  18.85853153]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99036012]
+ [ -43.41828243]
+ [ -17.33232364]
+ [  -7.23114806]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+hetero: ii 47 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 48 EM_expectationmaximization
+hetero: ii 48 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 48 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 4
+
+EM_expmax_MonteCarlo: Nrandic 2
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 5.69479e+06
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28260349]
+ [ -18.8561069 ]
+ [  14.72359402]
+ [  18.85853153]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99036012]
+ [ -43.41828243]
+ [ -17.33232364]
+ [  -7.23114806]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+
+########## 2014-08-15 00:40:29 ##########
+hetero: ii 19 EM_sphericalsymmetry_homogeneous
+hetero: ii 20 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 cbar:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 cbar:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 21 vobj_write_virusobj
+hetero: ii 22 misc_diary fn_diary off
+
+########## 2014-08-15 00:40:29 ##########
+hetero: ii 28 vobj_change_size_of_virusobj:
+hetero: ii 28 vlmax:
+[0 0]
+hetero: ii 28 vpmax:
+[4 4]
+virusobj_changesize: eta 1 ln 1
+virusobj_changesize: eta 2 ln 1
+hetero: ii 29 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 30 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+hetero: ii 31 EM_extractdatasubset kmax 0.052607
+hetero: ii 31 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 32 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 33 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 34 EM_expectationmaximization
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 34 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 10
+
+EM_expmax_MonteCarlo: Nrandic 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28264679]
+ [ -18.85609808]
+ [  14.72370087]
+ [  18.85878197]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99061803]
+ [ -43.41820927]
+ [ -17.33162108]
+ [  -7.2295175 ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.706992) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.72483) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.747296) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.739567) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: eta 1 cbar_ic_mean(eta):
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+EM_expmax_MonteCarlo: eta 1 cbar_ic_stddev(eta):
+[[ 21.0565207    3.77122138   2.9447188    3.77170631]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_mean(eta):
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_stddev(eta):
+[[ 20.19807202   8.68365649   3.46646473   1.44622961]]
+EM_expmax_MonteCarlo: nMC 2
+EM_expmax_MonteCarlo: nMC 3
+EM_expmax_MonteCarlo: nMC 4
+EM_expmax_MonteCarlo: nMC 5
+EM_expmax_MonteCarlo: nMC 6
+EM_expmax_MonteCarlo: nMC 7
+EM_expmax_MonteCarlo: nMC 8
+EM_expmax_MonteCarlo: nMC 9
+EM_expmax_MonteCarlo: nMC 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-124.46833407]
+ [ -20.06810378]
+ [  17.01797425]
+ [  13.39595099]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-129.42138193]
+ [ -25.93898446]
+ [ -13.46582856]
+ [  -6.24521261]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.740042) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 0 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.702436) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.674495) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.697825) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: nMC 10 current answer is not best so far loglikelihood -1.37126e+07 loglikelihood_best -1.37126e+07
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar 1.4237e+07
+hetero: ii 35 box_writepixelnoisevar fn_pixelnoisevar FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+hetero: ii 35 unknown operator box_writepixelnoisevar
+hetero: ii 36 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 37 vobj_write_virusobj
+hetero: ii 38 misc_diary fn_diary off
+
+########## 2014-08-15 00:40:36 ##########
+hetero: ii 42 vobj_change_size_of_virusobj:
+hetero: ii 42 vlmax:
+[6 6]
+hetero: ii 42 vpmax:
+[5 5]
+virusobj_changesize: eta 1 ln 2
+virusobj_changesize: eta 2 ln 2
+hetero: ii 43 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 44 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+hetero: ii 45 EM_extractdatasubset kmax 0.052607
+hetero: ii 45 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 46 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 47 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 48 EM_expectationmaximization
+hetero: ii 48 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 48 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 4
+
+EM_expmax_MonteCarlo: Nrandic 2
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 5.69479e+06
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28260349]
+ [ -18.8561069 ]
+ [  14.72359402]
+ [  18.85853153]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99036012]
+ [ -43.41828243]
+ [ -17.33232364]
+ [  -7.23114806]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+
+########## 2014-08-15 00:56:04 ##########
+hetero: ii 19 EM_sphericalsymmetry_homogeneous
+hetero: ii 20 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 cbar:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 cbar:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 21 vobj_write_virusobj
+hetero: ii 22 misc_diary fn_diary off
+
+########## 2014-08-15 00:56:04 ##########
+hetero: ii 28 vobj_change_size_of_virusobj:
+hetero: ii 28 vlmax:
+[0 0]
+hetero: ii 28 vpmax:
+[4 4]
+virusobj_changesize: eta 1 ln 1
+virusobj_changesize: eta 2 ln 1
+hetero: ii 29 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 30 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+hetero: ii 31 EM_extractdatasubset kmax 0.052607
+hetero: ii 31 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 32 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 33 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 34 EM_expectationmaximization
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 34 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 10
+
+EM_expmax_MonteCarlo: Nrandic 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28264679]
+ [ -18.85609808]
+ [  14.72370087]
+ [  18.85878197]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99061803]
+ [ -43.41820927]
+ [ -17.33162108]
+ [  -7.2295175 ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.697614) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.692242) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.700044) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.690305) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: eta 1 cbar_ic_mean(eta):
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+EM_expmax_MonteCarlo: eta 1 cbar_ic_stddev(eta):
+[[ 21.0565207    3.77122138   2.9447188    3.77170631]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_mean(eta):
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_stddev(eta):
+[[ 20.19807202   8.68365649   3.46646473   1.44622961]]
+EM_expmax_MonteCarlo: nMC 2
+EM_expmax_MonteCarlo: nMC 3
+EM_expmax_MonteCarlo: nMC 4
+EM_expmax_MonteCarlo: nMC 5
+EM_expmax_MonteCarlo: nMC 6
+EM_expmax_MonteCarlo: nMC 7
+EM_expmax_MonteCarlo: nMC 8
+EM_expmax_MonteCarlo: nMC 9
+EM_expmax_MonteCarlo: nMC 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-124.46833407]
+ [ -20.06810378]
+ [  17.01797425]
+ [  13.39595099]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-129.42138193]
+ [ -25.93898446]
+ [ -13.46582856]
+ [  -6.24521261]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.691054) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 0 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.678536) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.695097) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.687099) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: nMC 10 current answer is not best so far loglikelihood -1.37126e+07 loglikelihood_best -1.37126e+07
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar 1.4237e+07
+hetero: ii 35 box_writepixelnoisevar fn_pixelnoisevar FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+hetero: ii 35 unknown operator box_writepixelnoisevar
+hetero: ii 36 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 37 vobj_write_virusobj
+hetero: ii 38 misc_diary fn_diary off
+
+########## 2014-08-15 00:56:10 ##########
+hetero: ii 42 vobj_change_size_of_virusobj:
+hetero: ii 42 vlmax:
+[6 6]
+hetero: ii 42 vpmax:
+[5 5]
+virusobj_changesize: eta 1 ln 2
+virusobj_changesize: eta 2 ln 2
+hetero: ii 43 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 44 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+hetero: ii 45 EM_extractdatasubset kmax 0.052607
+hetero: ii 45 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 46 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 47 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 48 EM_expectationmaximization
+hetero: ii 48 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 48 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 4
+
+EM_expmax_MonteCarlo: Nrandic 2
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 5.69479e+06
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28260349]
+ [ -18.8561069 ]
+ [  14.72359402]
+ [  18.85853153]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99036012]
+ [ -43.41828243]
+ [ -17.33232364]
+ [  -7.23114806]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+
+########## 2014-08-31 18:06:16 ##########
+hetero: ii 19 EM_sphericalsymmetry_homogeneous
+hetero: ii 20 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 cbar:
+[-105.28264679  -18.85609808   14.72370087   18.85878197]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 cbar:
+[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 21 vobj_write_virusobj
+hetero: ii 22 misc_diary fn_diary off
+
+########## 2014-08-31 18:06:16 ##########
+hetero: ii 28 vobj_change_size_of_virusobj:
+hetero: ii 28 vlmax:
+[0 0]
+hetero: ii 28 vpmax:
+[4 4]
+virusobj_changesize: eta 1 ln 1
+virusobj_changesize: eta 2 ln 1
+hetero: ii 29 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28264679  -18.85609808   14.72370087   18.85878197]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99061803  -43.41820927  -17.33162108   -7.2295175 ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 30 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+hetero: ii 31 EM_extractdatasubset kmax 0.052607
+hetero: ii 31 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 32 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 33 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 34 EM_expectationmaximization
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 34 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 10
+
+EM_expmax_MonteCarlo: Nrandic 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28264679]
+ [ -18.85609808]
+ [  14.72370087]
+ [  18.85878197]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99061803]
+ [ -43.41820927]
+ [ -17.33162108]
+ [  -7.2295175 ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.691631) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.680933) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.690111) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.68446) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: eta 1 cbar_ic_mean(eta):
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+EM_expmax_MonteCarlo: eta 1 cbar_ic_stddev(eta):
+[[ 21.0565207    3.77122138   2.9447188    3.77170631]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_mean(eta):
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+EM_expmax_MonteCarlo: eta 2 cbar_ic_stddev(eta):
+[[ 20.19807202   8.68365649   3.46646473   1.44622961]]
+EM_expmax_MonteCarlo: nMC 2
+EM_expmax_MonteCarlo: nMC 3
+EM_expmax_MonteCarlo: nMC 4
+EM_expmax_MonteCarlo: nMC 5
+EM_expmax_MonteCarlo: nMC 6
+EM_expmax_MonteCarlo: nMC 7
+EM_expmax_MonteCarlo: nMC 8
+EM_expmax_MonteCarlo: nMC 9
+EM_expmax_MonteCarlo: nMC 10
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 1.4237e+07
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-124.46833407]
+ [ -20.06810378]
+ [  17.01797425]
+ [  13.39595099]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-129.42138193]
+ [ -25.93898446]
+ [ -13.46582856]
+ [  -6.24521261]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 0 (0.6943) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 0 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 0 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 0 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 0 relativecbar 0 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 1
+EM_expmax_iterate2convergence: itr 1 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 1 update cbar and q
+EM_expmax_iterate2convergence: itr 1 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 1 (0.685366) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 1 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 1 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 1 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 1 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: failed cbar_converge AND loglike_converge test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 2
+EM_expmax_iterate2convergence: itr 2 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 2 update cbar and q
+EM_expmax_iterate2convergence: itr 2 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 2 (0.685873) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 2 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 2 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 2 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 2 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: failed convergedtwice test
+EM_expmax_iterate2convergence: failed convergedtwice AND is_all_hetero test
+EM_expmax_iterate2convergence: Iteration 3
+EM_expmax_iterate2convergence: itr 3 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 3 update cbar and q
+EM_expmax_iterate2convergence: itr 3 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 
+applyclassproblimit: no change
+EM_expmax_iterate2convergence: itr 3 (0.6888) done new cbar and q and loglike via EMstep_cbar_dV_large
+EM_expmax_iterate2convergence: itr 3 done new loglikelihood -13712619.13400528
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{0}:
+EM_expmax_iterate2convergence: itr 3 done cbarNEW{1}:
+EM_expmax_iterate2convergence: itr 3 done qNEW for all classes:
+[[ 0.5]
+ [ 0.5]]
+EM_expmax_iterate2convergence: itr 3 relativecbar 1 absolutecbar 0
+EM_expmax_iterate2convergence: The cbar estimation converged at least once (cbar_converge 1 loglike_converge 1).
+EM_expmax_iterate2convergence: The cbar estimation has converged a second time in a row.
+EM_expmax_iterate2convergence: failed toomanyiterations test
+EM_expmax_iterate2convergence: problem has only homogeneous classes, returning vobj{eta}.nu to [] vector
+EM_expmax_iterate2convergence: about to save history and return
+assert_UpdateBothCopiesOfcbar: eta 0 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+assert_UpdateBothCopiesOfcbar: eta 1 vobj{eta}.cbar ~= vobj{eta}.clnp.c
+EM_expmax_MonteCarlo: nMC 10 current answer is not best so far loglikelihood -1.37126e+07 loglikelihood_best -1.37126e+07
+hetero: ii 34 EM_expectationmaximization: pixelnoisevar 1.4237e+07
+hetero: ii 35 box_writepixelnoisevar fn_pixelnoisevar FHV.out.lmax10pmax5.Neta2.rule49.Nv500.homo.inv.pixelnoisevar.txt
+hetero: ii 35 unknown operator box_writepixelnoisevar
+hetero: ii 36 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 37 vobj_write_virusobj
+hetero: ii 38 misc_diary fn_diary off
+
+########## 2014-08-31 18:06:22 ##########
+hetero: ii 42 vobj_change_size_of_virusobj:
+hetero: ii 42 vlmax:
+[6 6]
+hetero: ii 42 vpmax:
+[5 5]
+virusobj_changesize: eta 1 ln 2
+virusobj_changesize: eta 2 ln 2
+hetero: ii 43 vobj_print_virusobj
+vobj_print_virusobj: eta 1 clnp_fn FHV.ic.lmax0pmax1.clnp.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 1 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 1 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 1 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 1 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 1 clnp.c:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 cbar:
+[[-105.28260349  -18.8561069    14.72359402   18.85853153    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 1 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 1 R1 -1 R2 197.4
+vobj_print_virusobj: eta 1 nu:
+[]
+vobj_print_virusobj: eta 1 q 0.5
+vobj_print_virusobj: eta 2 clnp_fn FHV.ic.lmax0pmax1.clnp.perturbed.c001iszero.txt+++ nu_fn FHV.ic.lmax0pmax1.nu.homogeneous.txt+++ q_fn FHV.ic.lmax0pmax1.q.equalclassprobs.txt+++
+vobj_print_virusobj: eta 2 clnp.il:
+[[ 0.  0.  0.  0.  0.  6.  6.  6.  6.  6.]]
+vobj_print_virusobj: eta 2 clnp.in:
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+vobj_print_virusobj: eta 2 clnp.ip:
+[[ 1.  2.  3.  4.  5.  1.  2.  3.  4.  5.]]
+vobj_print_virusobj: eta 2 clnp.optflag:
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]]
+vobj_print_virusobj: eta 2 clnp.c:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 cbar:
+[[-100.99036012  -43.41828243  -17.33232364   -7.23114806    0.            0.
+     0.            0.            0.            0.        ]]
+vobj_print_virusobj: eta 2 BasisFunctionType [1.0]
+vobj_print_virusobj: eta 2 R1 -1 R2 170
+vobj_print_virusobj: eta 2 nu:
+[]
+vobj_print_virusobj: eta 2 q 0.5
+hetero: ii 44 EM_read_tilde_b fn_tilde_b callti.out.read_by_C
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+callti.out.read_by_C
+rd_b: fopenmsg [Errno 2] No such file or directory: u'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+hetero: ii 45 EM_extractdatasubset kmax 0.052607
+hetero: ii 45 EM_extractdatasubset Ny=size(vk,1)=799
+hetero: ii 46 EM_set_2Dreciprocal_in_virusobj use_vkminimalset_rather_than_vk 0
+virusobj_set_2Dreciprocal: vobj[eta].R1<0.0 means use H_{l,p}(r) on [0,R_2)
+virusobj_set_2Dreciprocal: vobj[eta].R1>=0.0 means use H_{l,p}(r) on (R_1,R_2) with R_1>=0
+virusobj_set_2Dreciprocal: the reciprocal-space radial basis functions are the same for all values of vobj[eta].BasisFunctionType: 
+virusobj_set_2Dreciprocal: vobj[eta=0].BasisFunctionType=1
+virusobj_set_2Dreciprocal: vobj[eta=1].BasisFunctionType=1
+hetero: ii 47 quad_read_integration_rule fn_rule /Users/YunHan/Google Drive/WorkSpace/FHV2014/rule_small_3_rulechopper
+hetero: ii 48 EM_expectationmaximization
+hetero: ii 48 EM_expectationmaximization: pixelnoisevar0 1.4237e+06 annulussamplevariance 343.847 Na 91 Nb 91
+hetero: ii 48 EM_expectationmaximization: cmd{ii}.MultiplierForPixelnoisevarIC 4
+
+EM_expmax_MonteCarlo: Nrandic 2
+EM_expmax_iterate2convergence: size(vk) 799 2 size(y) 1598 500
+EM_expmax_iterate2convergence: all classes are homogeneous
+EM_expmax_iterate2convergence: problem has only homogeneous classes, setting vobj{eta}.nu to 0 vector
+EM_expmax_iterate2convergence: Initial pixelnoisevar: 5.69479e+06
+EM_expmax_iterate2convergence: Initial cbar{0} from vobj:
+[[-105.28260349]
+ [ -18.8561069 ]
+ [  14.72359402]
+ [  18.85853153]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{0} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(0) from vobj: 0.5
+EM_expmax_iterate2convergence: Initial cbar{1} from vobj:
+[[-100.99036012]
+ [ -43.41828243]
+ [ -17.33232364]
+ [  -7.23114806]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]
+ [   0.        ]]
+EM_expmax_iterate2convergence: Initial nu{1} from vobj:
+[[ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]
+ [ 0.]]
+EM_expmax_iterate2convergence: Initial q(1) from vobj: 0.5
+EM_expmax_iterate2convergence: Iteration 0
+EM_expmax_iterate2convergence: itr 0 DID NOT compute p(nuisance|data,parameters) for update of pixelnoisevar
+EM_expmax_iterate2convergence: itr 0 update cbar and q
+EM_expmax_iterate2convergence: itr 0 compute new cbar and q and loglike via EMstep_cbar_dV_large
+This is function EMstep_cbar_dV_large
+computing p_theta_eta...
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+rd_b: fopenmsg [Errno 2] No such file or directory: 'callti.out.read_by_C' opening callti.out.read_by_C
+rd_b: l 0 rd_l 0 n 0 rd_n 1
+rd_b: l even, l 0 n 0 m 0
+rd_b: l 1 rd_l 2 n 0 rd_n 3
+rd_b: l 2 rd_l 4 n 0 rd_n 5
+rd_b: l 3 rd_l 6 n 0 rd_n 7
+rd_b: l 4 rd_l 8 n 0 rd_n 9
+rd_b: l 5 rd_l 10 n 0 rd_n 11
+rd_b: l 6 rd_l 12 n 0 rd_n 13
+rd_b: l even, l 6 n 0 m 0
+rd_b: l even, l 6 n 0 m 1
+computing p...
+computing the log likelihood...
+set_p_theta_eta_loglike_diagV time: 0
+EMstep_cbar_dV_large: n_total_p_theta_eta: 24500 24500 n_nonzero_p_theta_eta: 24500 24500
+computing the expectation and maximize it... 

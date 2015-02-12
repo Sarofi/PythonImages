@@ -1,0 +1,29 @@
+hetero: ii 2 vobj_read_virusobj fn_clnp hetero.step7/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.hetero.inv.eta1.clnp.txt fn_nu hetero.step7/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.hetero.inv.eta1.nu.txt fn_q FHV.Neta4.q.equalclassprobs.txt
+hetero: ii 2 vobj_read_virusobj fn_clnp ../FHV.lmax10pmax5.clnp.txt fn_nu ../FHV.lmax10pmax5.nu.txt fn_q FHV.Neta4.q.equalclassprobs.txt
+hetero: ii 2 vobj_read_virusobj fn_clnp hetero.step7/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.hetero.inv.eta2.clnp.txt fn_nu hetero.step7/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.hetero.inv.eta2.nu.txt fn_q FHV.Neta4.q.equalclassprobs.txt
+hetero: ii 2 vobj_read_virusobj fn_clnp ../FHV.lmax10pmax5.clnp.perturbed.txt fn_nu ../FHV.lmax10pmax5.nu.perturbed.txt fn_q FHV.Neta4.q.equalclassprobs.txt
+{Error using <a href="matlab:helpUtils.errorDocCallback('rd_clnp', '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/rd_clnp.m', 6)" style="font-weight:bold">rd_clnp</a>
+(<a href="matlab: opentoline('/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/rd_clnp.m',6,0)">line 6</a>)
+rd_clnp: cannot open
+fn
+hetero.step7/FHV.out.lmax10pmax5.Neta2.rule49.Nv500.hetero.inv.eta1.clnp.txt
+
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('virusobj_read', '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/virusobj_read.m', 34)" style="font-weight:bold">virusobj_read</a> (<a href="matlab: opentoline('/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/virusobj_read.m',34,0)">line
+34</a>)
+  [header1,header2,vobj{eta}.clnp]=rd_clnp(vobj{eta}.clnp_fn);
+  
+Error in <a href="matlab:helpUtils.errorDocCallback('hetero', '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/hetero.m', 703)" style="font-weight:bold">hetero</a> (<a href="matlab: opentoline('/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/hetero00.71/hetero.m',703,0)">line
+703</a>)
+      vobj=virusobj_read(cmd{ii}.fn_clnp,cmd{ii}.fn_nu,cmd{ii}.fn_q);
+      
+Error in
+<a href="matlab:helpUtils.errorDocCallback('inst_Neta2_rule49_Nv500_post', '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/FHV.syntheticdata4hetero00.7/inst_Neta2_rule49_Nv500_post.m', 111)" style="font-weight:bold">inst_Neta2_rule49_Nv500_post</a>
+(<a href="matlab: opentoline('/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/FHV.syntheticdata4hetero00.7/inst_Neta2_rule49_Nv500_post.m',111,0)">line 111</a>)
+hetero(cmd);
+} 
+addpath '/Users/YunHan/Google Drive/WorkSpace/FHVMatlab/FHVMergedMatlab'
+inst_Neta2_rule49_Nv500_hetero_inv
+inst_Neta2_rule49_Nv500_hetero_inv: outputbasename FHV.out.lmax10pmax5.Neta2.rule49.Nv500.hetero.inv
+hetero: ii 1 misc_diary fn_diary FHV.out.lmax10pmax5.Neta2.rule49.Nv500.hetero.inv.diary.txt

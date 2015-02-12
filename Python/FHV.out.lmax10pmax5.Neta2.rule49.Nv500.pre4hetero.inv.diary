@@ -1,0 +1,503 @@
+
+########## 2014-08-14 04:29:18 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-14 04:30:26 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_Image_stack
+hetero: ii 8 misc_write_mrc: what2write write_Image_stack
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 01:08:27 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_Image_stack
+hetero: ii 8 misc_write_mrc: what2write write_Image_stack
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 01:16:36 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_Image_stack
+hetero: ii 8 misc_write_mrc: what2write write_Image_stack
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 04:18:48 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_Image_stack
+hetero: ii 8 misc_write_mrc: what2write write_Image_stack
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 04:18:49 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_Image_stack
+hetero: ii 8 misc_write_mrc: what2write write_Image_stack
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 04:23:32 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_Image_stack
+hetero: ii 8 misc_write_mrc: what2write write_Image_stack
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 04:24:33 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_Image_stack
+hetero: ii 8 misc_write_mrc: what2write write_Image_stack
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 04:25:56 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_Image_stack
+hetero: ii 8 misc_write_mrc: what2write write_Image_stack
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 04:26:32 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_Image_stack
+BREAK HERE Pre
+hetero: ii 8 misc_write_mrc: what2write write_Image_stack
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 04:30:37 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+BREAK HERE Pre
+
+########## 2014-08-15 04:31:05 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+
+########## 2014-08-15 04:32:09 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+
+########## 2014-08-15 04:32:37 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+
+########## 2014-08-15 04:33:19 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+running well 1
+
+########## 2014-08-15 04:34:17 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+running well 1
+
+########## 2014-08-15 04:37:18 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+running well 1
+
+########## 2014-08-15 04:38:12 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+running well 1
+
+########## 2014-08-15 04:38:57 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+running well 1
+running well 2
+
+########## 2014-08-15 04:39:12 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+running well 1
+
+########## 2014-08-15 04:42:24 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 04:42:42 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+running well 2
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 04:42:50 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+
+########## 2014-08-15 04:42:57 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+running well 2
+hetero: ii 9 misc_diary fn_diary off
+
+########## 2014-08-15 04:43:13 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+
+########## 2014-08-15 04:44:53 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+
+########## 2014-08-15 04:48:58 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-15 04:52:07 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+hetero: ii 7 box_writeannulusstatistics fn_annulusstatistics FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.annulusstatistics.txt
+hetero: ii 8 misc_write_mrc fn_write_mrc FHV.out.lmax10pmax5.Neta2.rule49.Nv500.pre4hetero.inv.Imagestack.mrc what2write write_image_stack
+
+########## 2014-08-15 04:55:30 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+hetero: ii 5 box_annulusstatistics: radius01 202.1 244.4
+hetero: ii 5 box_annulusstatistics: number of pixels in the annulus 1828
+hetero: ii 5 box_annulusstatistics: annulussamplemean -0.0199884 annulussamplevariance 343.847
+hetero: ii 6 basic_realrecip_2DFFT
+
+########## 2014-08-15 04:57:02 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+hetero: ii 4 basic_set2Drealspacesamplingintervals deltachi(1) 4.7 deltachi(2) 4.7
+
+########## 2014-08-15 04:58:13 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-15 04:59:25 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-15 05:00:47 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-15 05:02:42 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+########## 2014-08-15 05:07:27 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+[[ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]]
+[[ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]]
+[[ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]]
+
+########## 2014-08-15 05:08:46 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+[[ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]] (91, 91)
+
+########## 2014-08-15 05:09:38 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+0
+
+########## 2014-08-15 05:10:11 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+0 (500, 1)
+[[ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]] (91, 91)
+0 (500, 1)
+
+########## 2014-08-15 05:37:11 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+0 (500, 1)
+
+########## 2014-08-15 05:38:47 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+0 (500, 1)
+
+########## 2014-08-15 05:47:30 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-15 05:48:14 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-15 05:50:23 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+
+########## 2014-08-15 05:50:57 ##########
+hetero: ii 2 misc_setpseudorandomnumberseed pseudorandomnumberseed 29831
+hetero: ii 3 box_readimagestack: imagestackformat mrc fn_imagestack FHV.out.lmax10pmax5.Neta2.rule49.Nv500.fw.imagestack.mrc
+hetero: ii 3 box_readimagestack: mrc: startSlice 1 numSlices 500
+[[ -6.95356369  13.57624149  -7.26048183 ...,  31.91728401  -7.80565119
+  -39.14587021]
+ [  5.56321907   2.85659719  10.3047781  ...,  -1.28607678   4.02453709
+    8.45883942]
+ [-37.50489807   2.47268987  14.36854553 ..., -17.06516838  -3.6036067
+   24.06739807]
+ ..., 
+ [-10.61002159   8.26721382 -21.41826248 ...,  17.11526871   4.7822032
+   15.57899475]
+ [-12.67601871  26.03882217  18.12978363 ..., -22.36422729 -15.51580906
+  -18.12615395]
+ [  0.79515129  13.2292099  -19.29157257 ...,  28.2515583   -4.78100824
+   64.19382477]] (91, 91, 500)

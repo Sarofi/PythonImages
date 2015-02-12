@@ -1,0 +1,28 @@
+README, created by Yunhan Wang 2014-09-08
+updated by Yunhan Wang 2014-10-1
+
+
+./fmincon_alternative:
+A report of the work I’ve done in fmincon alternative in Python.
+Some papers and documentations related.
+
+fmincon.py as the alternative has passed our little test case and could be used into our software.
+
+
+./Matlab
+FHV software in Matlab. I’ve attached a README under that folder.
+
+./Python
+Python version. Again, README under that folder explains the details.
+Debugging required. Still some visible bugs there.
+
+./Results
+Printed results from console when I ran the softwares. Just for quick looking.
+
+
+
+###### for developers ######
+
+Please update Changelog file under each software directory when you changed the codes. That will save everyone’s life :)
+
+Also I’d suggest split the codes into small sections, do unit tests with corner cases that come into your mind, then merge into our software and run instructions to test it.
