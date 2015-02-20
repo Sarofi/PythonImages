@@ -504,13 +504,27 @@ def hetero(cmd):
                 h.printf(log,'hetero: ii %d vobj_change_homo2hetero_in_virusobj eta %d action %d'%(i+1,eta,cmd[i].homo2hetero[eta].action))
             vobj=fun.virusobj_change_homo2hetero(vobj,cmd[i].homo2hetero)
             continue
-
+        
+        # supplemented by Guantian
         if cmd[i].operator==u'vobj_change_handedness' :
-
+            # requires cmd{ii}.changehand(1:Neta)
+            for eta in range(len(vobj)):
+                if cmd[i].changehand[eta]:
+                    for tochange in range(len(vobj[eta].clnp.l)):
+                        if vobj[eta].clnp.l[tochange] % 2 == 1:
+                            vobj[eta].clnp.c[tochange] *= -1
+                    vobj[eta].cbar = vobj[eta].clnp.c
+            print_vobj(vobj, i)
             continue
-
-        if cmd[i].operator==u'vobj_change_sign' :
-
+        
+        # supplemented by Guantian
+       if cmd[i].operator=='vobj_change_sign' :
+            # requires cmd{ii}.changesign(1:Neta)
+            for eta in range(len(vobj)):
+                if cmd[i].changesign[eta]:
+                    vobj[eta].clnp.c *= -1
+                    vobj[eta].cbar = vobj[eta].clnp.c
+            print_vobj(vobj, i)
             continue
 
         ##### integration rules:
