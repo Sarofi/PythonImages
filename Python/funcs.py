@@ -977,7 +977,8 @@ def setL_nord(Rabc, ll, mm, vk, Htable, map_unique2lp, tilde_b):
 
     Atable=set_Ttable_nord(ll,mm,sphkk[:,1],sphkk[:,2],tilde_b)
     # set up L
-
+    
+    # index offset in L and Htable modified by Guantian
     for ii in xrange(0,Nc):
         mod_num = ll[ii] % 4
         if mod_num == 0: # (-i)^0=1
@@ -985,22 +986,22 @@ def setL_nord(Rabc, ll, mm, vk, Htable, map_unique2lp, tilde_b):
             ATTENTION:
             map_unique2lp in matlab is a N*1 vector, however, in python it's a N*2, the second column is zero
             """
-            L[0:Ny*2:2,ii] = Atable[ii].flatten(1)*Htable[:,map_unique2lp[ii][0]] # real part for Ttable
+            L[0:Ny*2-1:2,ii] = Atable[ii].flatten(1)*Htable[:,map_unique2lp[ii][0]-1] # real part for Ttable
             """
             L(1:2:Ny*2-1,ii) = Atable{ii}(mm(ii)+1,:).*Htable(:,map_unique2lp(ii))'; % real part for Ytable
             """
         elif mod_num == 1: # (-i)^1=-i
-            L[1:Ny*2+1:2,ii] = -Atable[ii].flatten(1)*Htable[:,map_unique2lp[ii][0]] # imaginary part
+            L[1:Ny*2:2,ii] = -Atable[ii].flatten(1)*Htable[:,map_unique2lp[ii][0]-1] # imaginary part
             """
             L(2:2:Ny*2,ii) = -Atable{ii}(mm(ii)+1,:).*Htable(:,map_unique2lp(ii))';
             """
         elif mod_num == 2: # (-i)^2=-1
-            L[0:Ny*2:2,ii] = -Atable[ii].flatten(1)*Htable[:,map_unique2lp[ii][0]] # real part
+            L[0:Ny*2-1:2,ii] = -Atable[ii].flatten(1)*Htable[:,map_unique2lp[ii][0]-1] # real part
             """
             L(1:2:Ny*2-1,ii) = -Atable{ii}(mm(ii)+1,:).*Htable(:,map_unique2lp(ii))';
             """
         elif mod_num == 3: # (-i)^3=i
-            L[1:Ny*2+1:2,ii] = Atable[ii].flatten(1)*Htable[:,map_unique2lp[ii][0]] # imaginary part
+            L[1:Ny*2:2,ii] = Atable[ii].flatten(1)*Htable[:,map_unique2lp[ii][0]-1] # imaginary part
             """
             L(2:2:Ny*2,ii) = Atable{ii}(mm(ii)+1,:).*Htable(:,map_unique2lp(ii))';
             """
@@ -1437,6 +1438,11 @@ def set_Ttable_nord(ll, nn, theta, phi,tilde_b):
                 for m in range(n,l/5+1):
                     mprime = m*5
                     Nlm = np.sqrt((2*l+1)*factorial(l-mprime)/(4*pi*factorial(l+mprime)))
+                    # IF statement added by Guantian
+                    # tilde_b might be with demension less than 3
+                    if len(tilde_b.shape) < 3:
+                        d1, d2 = tilde_b.shape
+                        tilde_b = scipy.reshape(tilde_b, [d1, d2, 1])
                     if m==0:
                         # Ttable{ii}(:) = Ttable{ii}(:) + Nlm.*tilde_b(l+1,n+1,m+1).*plgndrtable(mprime+1,:)'.*cos(mprime*phi);
                         # print "l,n,m:%d %d %d"%(l,n,m)
