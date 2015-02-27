@@ -73,6 +73,7 @@ for ii=1:Nc
   end
 end
 
+% this global variable should be initialized in the main function
 global count
 count
 save(strcat('setL_nord_testing', num2str(count), '.mat'));
